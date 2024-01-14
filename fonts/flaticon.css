@@ -1,0 +1,42 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 07/12/2018 18:53
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("Flaticon.html");
+  src: url("Flaticond41d.html?#iefix") format("embedded-opentype"),
+       url("Flaticon-2.html") format("woff"),
+       url("Flaticon-3.html") format("truetype"),
+       url("Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-website-design-symbol:before { content: "\f100"; }
+.flaticon-programming:before { content: "\f101"; }
+.flaticon-wordpress-logo:before { content: "\f105"; }
+.flaticon-internet:before { content: "\f103"; }
+.flaticon-shopping-cart:before { content: "\f109"; }
+.flaticon-editor:before { content: "\f108"; }
+.flaticon-play-button:before { content: "\f106"; }
+.flaticon-close-button:before { content: "\f107"; }
+.flaticon-half-time-work:before { content: "\f108"; }
+.flaticon-man-working-on-a-laptop-from-side-view:before { content: "\f109"; }
+.flaticon-happy:before { content: "\f10a"; }
